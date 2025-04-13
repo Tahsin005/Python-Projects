@@ -8,6 +8,9 @@ isPlaying = True
 while isPlaying:
     try:
         seconds = int(input("Enter the number of seconds: "))
+        if seconds <= 0:
+            print("❌ Please enter a positive number.")
+            continue
     except:
         print("❌ Invalid input. Please enter a valid number.")
         continue
