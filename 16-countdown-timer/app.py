@@ -15,9 +15,6 @@ while isPlaying:
         print("❌ Invalid input. Please enter a valid number.")
         continue
 
-
-
-
     for i in range(seconds, 0, -1):
         print(f'⏳ {i} seconds remaining...')
         time.sleep(1)
